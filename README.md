@@ -14,7 +14,7 @@ namespace laba1
             Console.WriteLine("Input x=\r");
             double x = 
             Convert.ToDouble(Console.ReadLine());
-            double y = 3.7*Math.Sqrt(5 - x)*Math.Cos(3.5 - x)-Math.Pow(5 - x,1/5);
+            double y = 3.7*Math.Sqrt(5 - x)*Math.Cos(3.5 - x)-Math.Pow(5 - x,3/5);
             Console.WriteLine("x = {0} \t y = {1}", x,y);
             Console.ReadKey();
         }
